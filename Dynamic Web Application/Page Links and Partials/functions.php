@@ -9,5 +9,5 @@ function dd ($value){
 
 function urlIs($value)
 {
-    return $_SERVER['REQUEST_URI'] === $value;
+    return $_SERVER['REQUEST_URI'] === $value; // the $_SERVER called a superglobal
 }
