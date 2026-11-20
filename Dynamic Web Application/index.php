@@ -6,7 +6,7 @@ require __DIR__ . '/functions.php'; // __DIR__ means Where is this current PHP f
 
 
 //connect to our database (MYSQL).
-
+// the -> called a Object Operator it is used to access the object's properties and methods
 $dsn = "mysql:host=localhost;user=root;port=3306;dbname=learning_php;charset=utf8mb4"; // dsn mean data source name
 $pdo = new PDO($dsn); // new instance save as pdo
 
