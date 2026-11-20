@@ -1,6 +1,9 @@
 <?php
 
 
+//connect to our database (MYSQL).
+// the -> called a Object Operator it is used to access the object's properties and methods
+
 class Database
 {
     public $connection;
