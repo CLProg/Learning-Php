@@ -1,6 +1,6 @@
 <?php
 
-abstract class Abstraction{
+abstract class Abstraction{// when you use Abstarct Class you can't make a object using this
     abstract public function name();
     abstract public function age();
 }
